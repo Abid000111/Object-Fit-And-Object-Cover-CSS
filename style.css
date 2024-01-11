@@ -1,0 +1,23 @@
+.heading{
+    text-align: center;
+}
+
+.container{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    height: 60vh;
+    width: 50vw;
+    border: 2px solid;
+} 
+
+img{
+    height: 40%;
+    width: 70%;
+    object-fit: contain;
+    object-fit: fill;
+    object-fit: cover;
+    object-position: 10px 10px;
+    object-position: top;
+    object-position: top right;
+}
